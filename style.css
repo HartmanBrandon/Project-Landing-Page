@@ -20,11 +20,10 @@ nav {
     gap: 16px;
 }
 
-.nav-bar-container {
+.nav-bar-container, .hero-container{
     /* Styling for figuring out flex box styling */
     background-color: #1F2937;
     padding: 20px;
-
     display: flex;
     align-items: center;
     width: auto;
@@ -39,9 +38,30 @@ nav {
 
 }
 
-
 .nav-items{
     /* background-color: green; */
     flex: 1; 
     color: white;
 }
+
+.hero-container{
+
+    /* This is styling for hero container */
+
+}
+
+.hero-items {
+
+    color: white;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+    border-color: #3882F6;
+    border-radius: 7px;
+    border: 1px;
+    padding: 5px 20px 5px 20px;
+}
+
+
