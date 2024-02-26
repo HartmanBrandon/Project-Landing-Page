@@ -31,14 +31,18 @@ h1 {
     /* border: none; */
 }
 
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
 .nav-bar-container, .hero-container, .information-container{
     /* Styling for figuring out flex box styling */
     background-color: #1F2937;
     padding: 20px;
     display: flex;
     align-items: center;
-    /* width: auto; */
-    
+    /* width: auto; */ 
 }
 
 .logo {
@@ -46,7 +50,6 @@ h1 {
     font-size: 24px;
     font-weight: bold;
     /* background-color: yellow; */
-
 }
 
 .nav-items{
@@ -91,5 +94,14 @@ h1 {
 
 .information-container {
     background-color: white;
+}
+
+.subtext-item {
+    flex: 1;
+    gap: 10px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    flex-wrap: wrap;
 }
 
